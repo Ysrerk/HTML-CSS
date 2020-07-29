@@ -1,0 +1,101 @@
+.main{
+  border:2px solid;
+  background-color: aqua;
+  margin: 50px;
+  padding: 100px;
+  float: left;
+
+}
+.main > .box1{
+  border:2px solid;
+  background-color: brown;
+  padding:75px;
+  margin:35px;
+  float: left;
+  position: relative;
+  left: 330px;
+  top:115px;
+  z-index: 3;
+
+
+}
+.main > .box2{
+  border:2px solid;
+  background-color: brown;
+  padding:75px;
+  margin:35px;
+  float: left;
+  position: relative;
+  left:185px;
+  top:95px;
+  z-index: 2;
+}
+.main > .box3{
+  border:2px solid;
+  background-color: brown;
+  padding:75px;
+  margin:35px;
+  float: left;
+  z-index:1;
+
+
+}
+.scroll{
+
+  width: 50%;
+  /*border: 2px solid darkred;*/
+  margin: 50px;
+  padding: 20px;
+  height: 100px;
+  text-align: justify;
+
+}
+.scrollh1{
+
+  font-family: sans-serif;
+  color: darkslateblue;
+  font-style: italic;
+
+}
+.scroll2{
+
+  width: 50%;
+  /*border: 2px solid darkred;*/
+  margin: 50px;
+  padding: 20px;
+  height: 100px;
+  text-align: justify;
+  overflow: auto;
+  align:center;
+
+}
+.combinators ~ p{
+  background-color: aquamarine;
+  border: 2px solid orangered;
+  text-align: center;
+}
+.psudo{
+  font-size:2em;
+  font-family: monospace;
+  font-style: italic;
+  display: none;
+  background-color: coral;
+  border: 2px dotted firebrick;
+}
+.dsudo:hover .psudo{
+  display: block;
+  background-color: aqua;
+  width: 40%;
+}
+input{
+  background-color: coral;
+  width: 25%;
+  height: 35%;
+
+}
+input:focus{
+  background-color: darkcyan;
+  width: 25%;
+  height: 35%;
+
+}
