@@ -99,3 +99,15 @@ input:focus{
   height: 35%;
 
 }
+
+input[type="password"]:disabled{
+  background-color: blueviolet;
+
+}
+ul{
+  list-style: none;
+  list-style-image: url(../image/ico.png);
+}
+li{
+
+}

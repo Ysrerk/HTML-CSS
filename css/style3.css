@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+}
+ul{
+
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  color:white;
+}
+
+  li{
+float: left;
+padding: 15px;
+border-right: 1px solid black;
+margin: 0;
+  }
+  li:last-child{
+    border-right: none;
+  }
+  .active{
+    background-color: mediumvioletred;
+  }
+  li:hover:not(.active){
+    background-color:darkred;
+  }
+  .stext{
+    padding: 50px 20px;
+  }
+.resim{
+
+width: 10px;
+height: auto;
+}
+.dp-content {
+  display: none;
+  position: absolute;
+  background-color: cadetblue;
+  z-index: 1;
+
+}
+.dropdown:hover .dp-content{
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 20px;
+  padding-left: : 0;
+  margin-top:32px;
+  margin-left: 0;
+
+
+
+}
+.abc{
+  float: none;
+  width: 30%;
+  border:none;
+}
+.abc>li>a{
+  text-decoration: none;
+  color:white;
+}
