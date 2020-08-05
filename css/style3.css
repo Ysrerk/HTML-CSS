@@ -63,3 +63,34 @@ height: auto;
   text-decoration: none;
   color:white;
 }
+.newcontent> p{
+
+
+  display: inline-block;
+  margin-top: 125px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 2em;
+  background-color: maroon;
+  box-shadow: 0 10px 10px 0 black;
+
+}
+.subcontent{
+
+  position: absolute;
+  margin-left: 65%;
+  z-index: 1;
+  border: 1px solid grey;
+  box-shadow: 0 8px 8px 0 darkgray;
+  width:40%;
+  display: none;
+  background-color: dimgray;
+  margin-top: -130px;
+
+
+}
+.newcontent:hover .subcontent{
+  display: block;
+
+
+}
